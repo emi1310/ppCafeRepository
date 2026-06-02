@@ -10,4 +10,10 @@ CREATE TABLE Clients (
    name TEXT,
    description TEXT,
    value DECIMAL)
+
+CREATE TABLE employees (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR (50) NOT NULL,
+  FOREIGN KEY (id_role) REFERENCES role (id)
+  );
    
