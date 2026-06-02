@@ -1,0 +1,13 @@
+Creacion de tablas en SQLite
+
+CREATE TABLE Clients (
+  id_Client INTEGER PRIMARY KEY,
+  nombre TEXT,
+  phone TEXT)
+  
+ CREATE table (
+   id_Product INTEGER PRIMARY KEY,
+   name TEXT,
+   description TEXT,
+   value DECIMAL)
+   
